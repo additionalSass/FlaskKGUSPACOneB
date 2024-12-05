@@ -4,4 +4,3 @@ SPARQLWrapper
 pandas
 requests
 gunicorn
-fcntl
