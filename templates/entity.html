@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ entity.label }}</h2>
+<table>
+    {% from 'property_row.html' import property_row %}
+    {% for prop_name, values in entity.properties.items() %}
+        {{ property_row(prop_name, values, 0) }}
+    {% endfor %}
+</table>
+{% endblock %}

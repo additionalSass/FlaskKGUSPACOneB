@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Searching for An Entity</h2>
+
+<!-- Bar Pencarian -->
+<form method="get" action="{{ url_for('index') }}">
+    <input type="text" name="q" placeholder="Search..." value="{{ query }}" style="padding: 8px; width: 300px; border-radius: 5px; border: 1px solid #ccc;">
+    <button type="submit" style="padding: 7px 11px; border-radius: 5px; border: none; background-color: #107bff; color: white; cursor: pointer;">Search</button>
+</form>
+
+<!-- Penampilan Hasil Search berupa List -->
+{% if persons %}
+    <h3>{{ query and 'Search Results' or 'All US Presidents and Their Cabinets' }}</h3>
+    <ul>
+        {% for person in persons %}
+            <li>
+                <a href="{{ url_for('entity', entity_id=person.id) }}">{{ person.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No results found.</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,31 @@
+{% macro property_row(prop_name, values, level) %}
+<tr>
+    <th style="padding-left: {{ level * 20 }}px;" rowspan="{{ values|length }}">{{ prop_name }}</th>
+    <td>
+        {% for value in values %}
+            {% if loop.index > 1 %}
+                </td></tr><tr><td>
+            {% endif %}
+            {% if value.type == 'literal' %}
+                {% if prop_name == 'wikidata:image' or value.value.startswith('http://commons.wikimedia.org/wiki/Special:FilePath/') %}
+                    <img src="{{ value.value }}" alt="Image for {{ prop_name }}" style="max-width: 200px; height: auto;">
+                {% else %}
+                    {{ value.value }}
+                {% endif %}
+            {% elif value.type == 'uri' %}
+                <a href="{{ value.uri }}">{{ value.value }}</a>
+            {% elif value.type == 'bnode' %}
+                <table>
+                    {% for nested_prop_name, nested_values in value.properties.items() %}
+                        {{ property_row(nested_prop_name, nested_values, level + 1) }}
+                    {% endfor %}
+                </table>
+            {% elif value.type == 'circular' %}
+                {{ value.value }}
+            {% else %}
+                {{ value.value }}
+            {% endif %}
+        {% endfor %}
+    </td>
+</tr>
+{% endmacro %}

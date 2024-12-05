@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title if title else "Knowledge Graph Class Project" }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="{{ url_for('index') }}"> Knowledge Graph Class Project - US Presidents and Their Cabinet </a></h1>
+        </header>
+		<p> Group 1B - Vander Gerald Sukandi - 1906350603  </p> 
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

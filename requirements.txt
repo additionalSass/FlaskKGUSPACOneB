@@ -1,0 +1,7 @@
+Flask
+rdflib
+SPARQLWrapper
+pandas
+requests
+gunicorn
+fcntl
