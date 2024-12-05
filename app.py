@@ -103,41 +103,6 @@ def index():
 
     return render_template('index.html', persons=persons, query=query)
 
-def fetch_wikidata_info(wikidata_uri):
-    """Fetch additional information from Wikidata for a given Wikidata URI."""
-    wikidata_id = wikidata_uri.split('/')[-1]
-    query = f"""
-    SELECT ?property ?propertyLabel ?value ?valueLabel WHERE {{
-      wd:{wikidata_id} ?property ?value .
-      ?property rdfs:label ?propertyLabel .
-      OPTIONAL {{ ?value rdfs:label ?valueLabel . FILTER (lang(?valueLabel) = "en") }}
-      FILTER (lang(?propertyLabel) = "en")
-    }}
-    LIMIT 50
-    """
-    url = "https://query.wikidata.org/sparql"
-    headers = {
-        "Accept": "application/sparql-results+json"
-    }
-    response = requests.get(url, headers=headers, params={"query": query})
-    
-    if response.status_code == 200:
-        try:
-            data = response.json()
-            results = data.get('results', {}).get('bindings', [])
-            wikidata_info = defaultdict(list)
-            for result in results:
-                prop = result['propertyLabel']['value']
-                val = result.get('valueLabel', {}).get('value', result.get('value', {}).get('value', 'Unknown Value'))
-                wikidata_info[prop].append(val)
-            return wikidata_info
-        except Exception as e:
-            print(f"Error parsing Wikidata response: {e}")
-            return {}
-    else:
-        print(f"Failed to fetch Wikidata data: {response.status_code}")
-        return {}
-
 @app.route('/entity/<path:entity_id>')
 def entity(entity_id):
     uri = BASE[entity_id]
