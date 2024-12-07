@@ -138,7 +138,7 @@ def entity(entity_id):
               wd:%s ?prop ?value .
               ?property wikibase:directClaim ?prop .
               SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-            } LIMIT 30
+            } LIMIT 50
             """ % thewikidata_id
         sparql.setQuery(query)
         

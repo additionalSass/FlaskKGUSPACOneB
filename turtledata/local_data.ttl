@@ -24,8 +24,8 @@ base:MilitaryService a rdfs:Class ;
     owl:sameAs <http://www.wikidata.org/entity/Q93869049> .
 
 base:President a rdfs:Class ;
-    rdfs:label "President" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q493203> .
+    rdfs:label "the President of the United States" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11696> .
 
 base:Religion a rdfs:Class ;
     rdfs:label "Religion" ;
@@ -6387,32 +6387,6 @@ rdfs:Class a rdfs:Class ;
     ns2:startDate "1933-03-05"^^xsd:date ;
     foaf:familyName "Dern" ;
     foaf:name "George H. Dern" .
-
-<http://example.org/mybase#Person/George_H._W._Bush> a base:President ;
-    rdfs:label "George H. W. Bush" ;
-    base:ethnicOrigin "English, German" ;
-    base:hasEducation [ a base:Education ;
-            rdfs:label "Education of George H. W. Bush" ;
-            base:degree "B.A." ;
-            base:degreeURI <http://example.org/mybase#Degree/B.A.> ;
-            base:institution "Yale University (graduated in 1948)" ] ;
-    base:heightInCentimeters 188.0 ;
-    base:heightInFeet 62.0 ;
-    base:iq 98.0 ;
-    base:memberOf <http://example.org/mybase#PoliticalParty/Republican> ;
-    base:netWorth 31.0 ;
-    base:numberOfChildren 6 ;
-    base:numberOfMarriages 1 ;
-    base:religion "Episcopalian" ;
-    base:religionURI <http://example.org/mybase#Religion/Episcopalian> ;
-    base:state "Texas" ;
-    base:stateURI <http://example.org/mybase#State/Texas> ;
-    base:warsDuringTenure <http://example.org/mybase#War/Gulf_War> ;
-    base:weightInPounds 185.0 ;
-    ns2:birthDate "2024-06-12"^^xsd:date ;
-    ns2:deathDate "2018-11-30"^^xsd:date ;
-    owl:sameAs <http://www.wikidata.org/entity/Q23505> ;
-    foaf:name "George H. W. Bush" .
 
 <http://example.org/mybase#Person/George_H._Williams> a base:CabinetAppointee ;
     rdfs:label "George H. Williams" ;
@@ -22930,49 +22904,76 @@ rdfs:Class a rdfs:Class ;
     foaf:familyName "Eisenhower" ;
     foaf:name "Dwight D. Eisenhower" .
 
-<http://example.org/mybase#Person/George_H.W._Bush> a base:CabinetAppointee ;
+<http://example.org/mybase#Person/George_H.W._Bush>
+    a base:CabinetAppointee, base:President ;
     rdfs:label "George H.W. Bush" ;
-    base:departmentScandal false,
-        true ;
+    base:ethnicOrigin "English, German" ;
+    base:hasEducation [
+        a base:Education ;
+        rdfs:label "Education of George H.W. Bush" ;
+        base:degree "B.A." ;
+        base:degreeURI <http://example.org/mybase#Degree/B.A.> ;
+        base:institution "Yale University (graduated in 1948)"
+    ] ;
+    base:heightInCentimeters 188.0 ;
+    base:heightInFeet 62.0 ;
+    base:iq 98.0 ;
+    base:memberOf <http://example.org/mybase#PoliticalParty/Republican> ;
+    base:netWorth 31.0 ;
+    base:numberOfChildren 6 ;
+    base:numberOfMarriages 1 ;
+    base:religion "Episcopalian" ;
+    base:religionURI <http://example.org/mybase#Religion/Episcopalian> ;
+    base:state "Texas" ;
+    base:stateURI <http://example.org/mybase#State/Texas> ;
+    base:warsDuringTenure <http://example.org/mybase#War/Gulf_War> ;
+    base:weightInPounds 185.0 ;
+    ns2:birthDate "2024-06-12"^^xsd:date ;
+    ns2:deathDate "2018-11-30"^^xsd:date ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23505> ;
+    foaf:name "George H.W. Bush" ;
+    base:departmentScandal false ;
     base:diedInOffice false ;
     base:foreignBorn false ;
-    base:hasConfirmationVote [ a base:ConfirmationVote ;
-            rdfs:label "Confirmation Vote for George H.W. Bush" ;
-            base:senateVotesAgainst "Elected official" ;
-            base:senateVotesFor "Elected official" ],
-        [ a base:ConfirmationVote ;
-            rdfs:label "Confirmation Vote for George H.W. Bush" ;
-            base:senateVotesAgainst "Elected official" ;
-            base:senateVotesFor "Elected official" ] ;
+    base:hasConfirmationVote [
+        a base:ConfirmationVote ;
+        rdfs:label "Confirmation Vote for George H.W. Bush" ;
+        base:senateVotesAgainst "Elected official" ;
+        base:senateVotesFor "Elected official"
+    ] ;
     base:hasDegree <http://example.org/mybase#Degree/Bachelors> ;
-    base:hasEducation [ a base:Education ;
-            rdfs:label "Education of George H.W. Bush" ;
-            rdfs:comment "Yale University (BA)" ],
-        [ a base:Education ;
-            rdfs:label "Education of George H.W. Bush" ;
-            rdfs:comment "Yale University (BA)" ] ;
+    base:hasEducation [
+        a base:Education ;
+        rdfs:label "Education of George H.W. Bush" ;
+        rdfs:comment "Yale University (BA)"
+    ],
+    [
+        a base:Education ;
+        rdfs:label "Education of George H.W. Bush" ;
+        rdfs:comment "Yale University (BA)"
+    ] ;
     base:heldPosition <http://example.org/mybase#Department/President>,
         <http://example.org/mybase#Department/Vice_President> ;
-    base:involvedIn [ a base:Scandal ;
-            rdfs:label "Scandal involving George H.W. Bush" ;
-            rdfs:comment "Perjury about Iran Contra Affair, Iran-Contra Affair pardons" ],
-        [ a base:Scandal ;
-            rdfs:label "Scandal involving George H.W. Bush" ;
-            rdfs:comment "Chief of Staff perjury" ] ;
-    base:involvedInScandal false,
-        true ;
+    base:involvedIn [
+        a base:Scandal ;
+        rdfs:label "Scandal involving George H.W. Bush" ;
+        rdfs:comment "Perjury about Iran Contra Affair, Iran-Contra Affair pardons"
+    ],
+    [
+        a base:Scandal ;
+        rdfs:label "Scandal involving George H.W. Bush" ;
+        rdfs:comment "Chief of Staff perjury"
+    ] ;
+    base:involvedInScandal false ;
     base:isMinority false ;
-    base:memberOf <http://example.org/mybase#PoliticalParty/Republican> ;
-    base:participatedIn [ a base:MilitaryService ;
-            rdfs:label "Military Service of George H.W. Bush" ;
-            base:militaryBranch "Navy" ;
-            base:militaryRank "lt." ;
-            base:militaryServicePeriod "1942-1945" ],
-        [ a base:MilitaryService ;
-            rdfs:label "Military Service of George H.W. Bush" ;
-            base:militaryBranch "Navy" ;
-            base:militaryRank "lt." ;
-            base:militaryServicePeriod "1942-1945" ] ;
+    base:participatedIn [
+        a base:MilitaryService ;
+        rdfs:label "Military Service of George H.W. Bush" ;
+        base:militaryBranch "Navy" ;
+        base:militaryRank "lt." ;
+        base:militaryServicePeriod "1942-1945"
+    ] ;
+
     base:servedUnder <http://example.org/mybase#Person/George_H.W._Bush>,
         <http://example.org/mybase#Person/Ronald_Reagan> ;
     ns2:endDate "1989-01-20"^^xsd:date,
@@ -22980,9 +22981,9 @@ rdfs:Class a rdfs:Class ;
     ns2:gender "Male" ;
     ns2:startDate "1981-01-20"^^xsd:date,
         "1989-01-20"^^xsd:date ;
-    owl:sameAs <http://www.wikidata.org/entity/Q104852777> ;
     foaf:familyName "Bush" ;
     foaf:name "George H.W. Bush" .
+
 
 <http://example.org/mybase#Person/Jimmy_Carter> a base:CabinetAppointee,
         base:President ;
@@ -23686,11 +23687,11 @@ rdfs:Class a rdfs:Class ;
     rdfs:label "Masters" ;
     owl:sameAs <http://www.wikidata.org/entity/Q539684> .
 
-<http://example.org/mybase#PoliticalParty/Democrat> rdfs:label "Democrat" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q342240> .
+<http://example.org/mybase#PoliticalParty/Democrat> rdfs:label "Democratic Party (United States)" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29552> .
 
-<http://example.org/mybase#PoliticalParty/Republican> rdfs:label "Republican" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q228563> .
+<http://example.org/mybase#PoliticalParty/Republican> rdfs:label "Republican Party (United States)" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29468> .
 
 <http://example.org/mybase#Degree/Law> a base:Degree ;
     rdfs:label "Law" ;
