@@ -70,7 +70,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Marines" ;
             base:militaryRank "2d lt." ;
             base:militaryServicePeriod "Korean War" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1968-03-06"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1967-01-18"^^xsd:date ;
@@ -354,7 +354,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Army" ;
             base:militaryRank "maj." ;
             base:militaryServicePeriod "World War II" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1969-01-20"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1967-01-12"^^xsd:date ;
@@ -1135,7 +1135,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryRank "seaman" ;
             base:militaryServicePeriod "World War II" ] ;
     base:servedUnder <http://example.org/mybase#Person/John_F._Kennedy>,
-        <http://example.org/mybase#Person/Lyndon_Johnson> ;
+        <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1963-11-22"^^xsd:date,
         "1965-08-17"^^xsd:date ;
     ns2:gender "Male" ;
@@ -2001,7 +2001,7 @@ rdfs:Class a rdfs:Class ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
     base:servedUnder <http://example.org/mybase#Person/John_F._Kennedy>,
-        <http://example.org/mybase#Person/Lyndon_Johnson> ;
+        <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1963-11-22"^^xsd:date,
         "1965-04-01"^^xsd:date ;
     ns2:gender "Male" ;
@@ -2032,7 +2032,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Army" ;
             base:militaryRank "maj. gen." ;
             base:militaryServicePeriod "World War II" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1969-01-20"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1968-03-06"^^xsd:date ;
@@ -3087,7 +3087,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Navy" ;
             base:militaryRank "capt." ;
             base:militaryServicePeriod "World War II" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1969-01-20"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1968-03-01"^^xsd:date ;
@@ -3997,7 +3997,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryRank "infantry res. off.; col." ;
             base:militaryServicePeriod "1931-1941; World War II" ] ;
     base:servedUnder <http://example.org/mybase#Person/John_F._Kennedy>,
-        <http://example.org/mybase#Person/Lyndon_Johnson> ;
+        <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1963-11-22"^^xsd:date,
         "1969-01-20"^^xsd:date ;
     ns2:gender "Male" ;
@@ -7571,7 +7571,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1968-12-20"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1965-04-01"^^xsd:date ;
@@ -8158,7 +8158,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1969-01-20"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1963-11-22"^^xsd:date ;
@@ -10320,7 +10320,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryRank "1st lt." ;
             base:militaryServicePeriod "World War II" ] ;
     base:servedUnder <http://example.org/mybase#Person/John_F._Kennedy>,
-        <http://example.org/mybase#Person/Lyndon_Johnson> ;
+        <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1963-11-22"^^xsd:date,
         "1965-09-01"^^xsd:date ;
     ns2:gender "Male" ;
@@ -11770,7 +11770,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Marines" ;
             base:militaryRank "2d lt." ;
             base:militaryServicePeriod "World War II" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1967-01-18"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1965-01-18"^^xsd:date ;
@@ -11859,7 +11859,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Marines" ;
             base:militaryRank "capt." ;
             base:militaryServicePeriod "World War II" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1968-01-25"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1965-08-17"^^xsd:date ;
@@ -12305,7 +12305,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1969-01-20"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1968-12-20"^^xsd:date ;
@@ -12779,7 +12779,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Army" ;
             base:militaryRank "sgt." ;
             base:militaryServicePeriod "World War II" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1968-04-10"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1965-09-01"^^xsd:date ;
@@ -13480,7 +13480,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryRank "2d lt." ;
             base:militaryServicePeriod "1919" ] ;
     base:servedUnder <http://example.org/mybase#Person/John_F._Kennedy>,
-        <http://example.org/mybase#Person/Lyndon_Johnson> ;
+        <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1963-11-22"^^xsd:date,
         "1965-01-18"^^xsd:date ;
     ns2:gender "Male" ;
@@ -13575,7 +13575,7 @@ rdfs:Class a rdfs:Class ;
     base:religion "Disciples of Christ" ;
     base:religionURI <http://example.org/mybase#Religion/Disciples_of_Christ> ;
     base:servedUnder <http://example.org/mybase#Person/John_F._Kennedy>,
-        <http://example.org/mybase#Person/Lyndon_Johnson> ;
+        <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     base:state "Texas" ;
     base:stateURI <http://example.org/mybase#State/Texas> ;
     base:warsDuringTenure <http://example.org/mybase#War/Vietnam_War> ;
@@ -14643,7 +14643,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Army" ;
             base:militaryRank "navigator, army air corps" ;
             base:militaryServicePeriod "World War II" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1966-09-21"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1964-09-03"^^xsd:date ;
@@ -14865,7 +14865,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryRank "maj." ;
             base:militaryServicePeriod "World War II" ] ;
     base:servedUnder <http://example.org/mybase#Person/John_F._Kennedy>,
-        <http://example.org/mybase#Person/Lyndon_Johnson> ;
+        <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1963-11-22"^^xsd:date,
         "1969-01-20"^^xsd:date ;
     ns2:gender "Male" ;
@@ -15441,7 +15441,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Marines" ;
             base:militaryRank "cpl." ;
             base:militaryServicePeriod "1945-1946" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1969-01-20"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1966-09-21"^^xsd:date ;
@@ -16267,7 +16267,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority true ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1968-12-01"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1966-01-17"^^xsd:date ;
@@ -16300,7 +16300,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Army" ;
             base:militaryRank "gen." ;
             base:militaryServicePeriod "World War II" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1967-01-12"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1969-01-09"^^xsd:date ;
@@ -16384,7 +16384,7 @@ rdfs:Class a rdfs:Class ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
     base:servedUnder <http://example.org/mybase#Person/John_F._Kennedy>,
-        <http://example.org/mybase#Person/Lyndon_Johnson> ;
+        <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1963-11-22"^^xsd:date,
         "1964-09-03"^^xsd:date ;
     ns2:gender "Male" ;
@@ -16671,7 +16671,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryRank "col." ;
             base:militaryServicePeriod "World War II" ] ;
     base:servedUnder <http://example.org/mybase#Person/John_F._Kennedy>,
-        <http://example.org/mybase#Person/Lyndon_Johnson> ;
+        <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1963-11-22"^^xsd:date,
         "1968-02-28"^^xsd:date ;
     ns2:gender "Male" ;
@@ -17936,7 +17936,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryRank "gunner, army air corps" ;
             base:militaryServicePeriod "World War II" ] ;
     base:servedUnder <http://example.org/mybase#Person/John_F._Kennedy>,
-        <http://example.org/mybase#Person/Lyndon_Johnson> ;
+        <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1963-11-22"^^xsd:date,
         "1969-01-20"^^xsd:date ;
     ns2:gender "Male" ;
@@ -18786,7 +18786,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Marines" ;
             base:militaryRank "sgt." ;
             base:militaryServicePeriod "World War II" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1969-01-20"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1968-04-10"^^xsd:date ;
@@ -18847,7 +18847,7 @@ rdfs:Class a rdfs:Class ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
     base:servedUnder <http://example.org/mybase#Person/John_F._Kennedy>,
-        <http://example.org/mybase#Person/Lyndon_Johnson> ;
+        <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1963-11-22"^^xsd:date,
         "1969-01-20"^^xsd:date ;
     ns2:gender "Male" ;
@@ -19146,7 +19146,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Lyndon_Johnson> ;
+    base:servedUnder <http://example.org/mybase#Person/Lyndon_B._Johnson> ;
     ns2:endDate "1969-01-20"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1968-01-25"^^xsd:date ;
@@ -23243,9 +23243,6 @@ rdfs:Class a rdfs:Class ;
     foaf:name "Ulysses S. Grant" .
 
 <http://example.org/mybase#Department/Secretary_of_Defense> rdfs:label "Secretary of Defense" .
-
-<http://example.org/mybase#Person/Lyndon_Johnson> rdfs:label "Lyndon Johnson" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q60735999> .
 
 <http://example.org/mybase#Department/Secretary_of_Labor> rdfs:label "Secretary of Labor" .
 
