@@ -24,7 +24,7 @@ base:MilitaryService a rdfs:Class ;
     owl:sameAs <http://www.wikidata.org/entity/Q93869049> .
 
 base:President a rdfs:Class ;
-    rdfs:label "the President of the United States" ;
+    rdfs:label "The President of the United States" ;
     owl:sameAs <http://www.wikidata.org/entity/Q11696> .
 
 base:Religion a rdfs:Class ;
@@ -2615,7 +2615,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1940-06-24"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1939-01-02"^^xsd:date ;
@@ -3113,7 +3113,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1939-07-07"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1933-03-04"^^xsd:date ;
@@ -3145,7 +3145,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt>,
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt>,
         <http://example.org/mybase#Person/Harry_S._Truman> ;
     ns2:endDate "1945-04-12"^^xsd:date,
         "1945-05-22"^^xsd:date ;
@@ -3397,7 +3397,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Army" ;
             base:militaryRank "capt." ;
             base:militaryServicePeriod "Spanish-American War" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1944-11-30"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1933-03-04"^^xsd:date ;
@@ -3585,7 +3585,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1938-12-23"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1933-03-04"^^xsd:date ;
@@ -4654,7 +4654,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt>,
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt>,
         <http://example.org/mybase#Person/Harry_S._Truman> ;
     ns2:endDate "1945-04-12"^^xsd:date,
         "1945-06-27"^^xsd:date ;
@@ -5498,7 +5498,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt>,
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt>,
         <http://example.org/mybase#Person/Harry_S._Truman> ;
     ns2:endDate "1945-04-12"^^xsd:date,
         "1945-07-01"^^xsd:date ;
@@ -5535,7 +5535,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt>,
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt>,
         <http://example.org/mybase#Person/Harry_S._Truman> ;
     ns2:endDate "1945-04-12"^^xsd:date,
         "1945-06-30"^^xsd:date ;
@@ -5675,7 +5675,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Army" ;
             base:militaryRank "1st lt." ;
             base:militaryServicePeriod "World War I" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt>,
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt>,
         <http://example.org/mybase#Person/Harry_S._Truman> ;
     ns2:endDate "1945-04-12"^^xsd:date,
         "1945-07-01"^^xsd:date ;
@@ -5762,7 +5762,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Militia/National Guard" ;
             base:militaryRank "col." ;
             base:militaryServicePeriod "World War I" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1944-04-28"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1940-07-11"^^xsd:date ;
@@ -5793,7 +5793,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Army" ;
             base:militaryRank "capt." ;
             base:militaryServicePeriod "World War I" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1940-01-18"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1939-01-02"^^xsd:date ;
@@ -5828,14 +5828,13 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:iq 142.0 ;
     base:isMinority false ;
-    base:memberOf <http://example.org/mybase#PoliticalParty/Democrat>,
-        <http://example.org/mybase#PoliticalParty/Democratic> ;
-    base:netWorth 79.0 ;
+    base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
+	base:netWorth 79.0 ;
     base:numberOfChildren 6 ;
     base:numberOfMarriages 1 ;
     base:religion "Episcopalian" ;
     base:religionURI <http://example.org/mybase#Religion/Episcopalian> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     base:state "New York" ;
     base:stateURI <http://example.org/mybase#State/New_York> ;
     base:warsDuringTenure <http://example.org/mybase#War/World_War_II,_Korean_War> ;
@@ -5845,7 +5844,7 @@ rdfs:Class a rdfs:Class ;
     ns2:endDate "1945-04-12"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1933-03-04"^^xsd:date ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1445204> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8007> ;
     foaf:familyName "Roosevelt" ;
     foaf:name "Franklin D. Roosevelt" .
 
@@ -6381,7 +6380,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1936-08-27"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1933-03-05"^^xsd:date ;
@@ -7125,7 +7124,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt>,
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt>,
         <http://example.org/mybase#Person/Harry_S._Truman> ;
     ns2:endDate "1945-04-12"^^xsd:date,
         "1946-02-12"^^xsd:date ;
@@ -7157,7 +7156,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Army" ;
             base:militaryRank "2d lt." ;
             base:militaryServicePeriod "World War I" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1940-06-20"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1936-08-27"^^xsd:date ;
@@ -7182,7 +7181,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1940-08-24"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1938-12-23"^^xsd:date ;
@@ -7373,7 +7372,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt>,
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt>,
         <http://example.org/mybase#Person/Harry_S._Truman> ;
     ns2:endDate "1940-08-15"^^xsd:date,
         "1945-01-20"^^xsd:date,
@@ -7651,7 +7650,7 @@ rdfs:Class a rdfs:Class ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat>,
         <http://example.org/mybase#PoliticalParty/Republican> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt>,
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt>,
         <http://example.org/mybase#Person/Harry_S._Truman>,
         <http://example.org/mybase#Person/Herbert_Hoover>,
         <http://example.org/mybase#Person/William_Howard_Taft> ;
@@ -7732,7 +7731,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Navy" ;
             base:militaryRank "lt." ;
             base:militaryServicePeriod "World War I" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt>,
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt>,
         <http://example.org/mybase#Person/Harry_S._Truman> ;
     ns2:endDate "1945-04-12"^^xsd:date,
         "1945-07-05"^^xsd:date ;
@@ -8034,7 +8033,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1939-01-02"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1933-03-04"^^xsd:date ;
@@ -8659,7 +8658,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1940-09-11"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1933-03-04"^^xsd:date ;
@@ -9008,7 +9007,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryBranch "Navy" ;
             base:militaryRank "lt. cmdr." ;
             base:militaryServicePeriod "World War I" ] ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt>,
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt>,
         <http://example.org/mybase#Person/Harry_S._Truman> ;
     ns2:endDate "1945-04-12"^^xsd:date,
         "1947-09-19"^^xsd:date,
@@ -10071,7 +10070,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1945-03-01"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1940-09-14"^^xsd:date ;
@@ -11530,7 +11529,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1941-01-20"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1933-03-04"^^xsd:date ;
@@ -16470,7 +16469,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1941-07-10"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1940-01-18"^^xsd:date ;
@@ -20038,7 +20037,7 @@ rdfs:Class a rdfs:Class ;
     base:involvedInScandal false ;
     base:isMinority false ;
     base:memberOf <http://example.org/mybase#PoliticalParty/Democrat> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt> ;
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt> ;
     ns2:endDate "1933-12-31"^^xsd:date ;
     ns2:gender "Male" ;
     ns2:startDate "1933-03-04"^^xsd:date ;
@@ -23245,8 +23244,6 @@ rdfs:Class a rdfs:Class ;
 
 <http://example.org/mybase#Department/Secretary_of_Defense> rdfs:label "Secretary of Defense" .
 
-<http://example.org/mybase#Person/Franklin_Roosevelt> rdfs:label "Franklin Roosevelt" .
-
 <http://example.org/mybase#Person/Lyndon_Johnson> rdfs:label "Lyndon Johnson" ;
     owl:sameAs <http://www.wikidata.org/entity/Q60735999> .
 
@@ -23427,7 +23424,7 @@ rdfs:Class a rdfs:Class ;
             base:militaryServicePeriod "1905-1911; World War I" ] ;
     base:religion "Baptist" ;
     base:religionURI <http://example.org/mybase#Religion/Baptist> ;
-    base:servedUnder <http://example.org/mybase#Person/Franklin_Roosevelt>,
+    base:servedUnder <http://example.org/mybase#Person/Franklin_D._Roosevelt>,
         <http://example.org/mybase#Person/Harry_S._Truman> ;
     base:state "Missouri" ;
     base:stateURI <http://example.org/mybase#State/Missouri> ;
@@ -23600,8 +23597,8 @@ rdfs:Class a rdfs:Class ;
     foaf:familyName "Obama" ;
     foaf:name "Barack Obama" .
 
-<http://example.org/mybase#Department/President> rdfs:label "President" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q493203> .
+<http://example.org/mybase#Department/President> rdfs:label "The President of the United States" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11696> .
 
 <http://example.org/mybase#Department/Secretary_of_the_Navy> rdfs:label "Secretary of the Navy" .
 
@@ -23672,16 +23669,16 @@ rdfs:Class a rdfs:Class ;
     owl:sameAs <http://www.wikidata.org/entity/Q1208822> .
 
 <http://example.org/mybase#Department/Secretary_of_War> rdfs:label "Secretary of War" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q7444405> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2419102> .
 
 <http://example.org/mybase#Department/Secretary_of_State> rdfs:label "Secretary of State" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q14214> .
+    owl:sameAs <http://www.wikidata.org/entity/Q14213> .
 
 <http://example.org/mybase#Department/Secretary_of_the_Treasury> rdfs:label "Secretary of the Treasury" ;
     owl:sameAs <http://www.wikidata.org/entity/Q7444427> .
 
 <http://example.org/mybase#Department/Attorney_General> rdfs:label "Attorney General" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1773516> .
+    owl:sameAs <http://www.wikidata.org/entity/Q636207> .
 
 <http://example.org/mybase#Degree/Masters> a base:Degree ;
     rdfs:label "Masters" ;
